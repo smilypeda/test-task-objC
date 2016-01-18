@@ -10,6 +10,9 @@
 
 @interface MessagesTableViewCell : UITableViewCell
 
+@property (strong, nonatomic, readonly) UILabel *titleLabel;
+@property (strong, nonatomic, readonly) UILabel *expandableLabel;
+
 @property (assign, nonatomic) BOOL expanded;
 
 @end

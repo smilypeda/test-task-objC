@@ -14,4 +14,6 @@
 @property (strong, nonatomic, readonly) NSString *text;
 @property (strong, nonatomic, readonly) NSString *rawJSON;
 
+- (instancetype)initWithID:(NSString *)ID text:(NSString *)text rawJSON:(NSString *)rawJSON;
+
 @end

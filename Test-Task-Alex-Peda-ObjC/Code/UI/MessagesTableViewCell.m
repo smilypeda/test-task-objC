@@ -11,9 +11,6 @@
 
 @interface MessagesTableViewCell ()
 
-@property (strong, nonatomic) UILabel *titleLabel;
-@property (strong, nonatomic) UILabel *expandableLabel;
-
 @end
 
 
@@ -31,11 +28,11 @@
     self.selectedBackgroundView = [UIView new];
     self.selectedBackgroundView.backgroundColor = [UIColor greenColor];
     
-    self.expandableLabel = [UILabel new];
+    _expandableLabel = [UILabel new];
     self.expandableLabel.numberOfLines = 0;
     self.expandableLabel.font = [UIFont systemFontOfSize:10];
     
-    self.titleLabel = [UILabel new];
+    _titleLabel = [UILabel new];
     [self.contentView addSubview:self.titleLabel];
     self.titleLabel.translatesAutoresizingMaskIntoConstraints = NO;
 }
@@ -75,7 +72,7 @@
                                                                                  options:0
                                                                                  metrics:nil
                                                                                    views:NSDictionaryOfVariableBindings(_expandableLabel)]];
-        // it's a part of hack to get flexible cell height (http://stackoverflow.com/questions/18746929/using-auto-layout-in-uitableview-for-dynamic-cell-layouts-variable-row-heights)
+        //code below is a part of hack to get flexible cell height (http://stackoverflow.com/questions/18746929/using-auto-layout-in-uitableview-for-dynamic-cell-layouts-variable-row-heights)
         
         [self.contentView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-15-[titleLabel]-15-[expandableLabel]|"
                                                                                  options:0

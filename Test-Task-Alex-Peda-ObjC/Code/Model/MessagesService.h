@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+@class Message;
+
 @interface MessagesService : NSObject
+
+- (void)loadMessagesWithCompletion:(nullable void (^)(NSArray<Message *>  * _Nullable messages,  NSError * _Nullable error))completion;
 
 @end

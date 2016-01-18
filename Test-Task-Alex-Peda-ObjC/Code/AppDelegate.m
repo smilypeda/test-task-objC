@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "MainViewController.h"
-#import "ECSlidingViewController.h"
+#import <ECSlidingViewController/ECSlidingViewController.h>
 
 @interface AppDelegate ()
 

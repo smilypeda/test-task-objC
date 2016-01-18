@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C26C27D01C4C5FBB00697AE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C26C27BF1C4C5FBB00697AE8 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		C26C27D11C4C5FBB00697AE8 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = C26C27C21C4C5FBB00697AE8 /* Message.m */; settings = {ASSET_TAGS = (); }; };
+		C26C27D21C4C5FBB00697AE8 /* MessagesMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C26C27C41C4C5FBB00697AE8 /* MessagesMapper.m */; settings = {ASSET_TAGS = (); }; };
+		C26C27D31C4C5FBB00697AE8 /* MessagesService.m in Sources */ = {isa = PBXBuildFile; fileRef = C26C27C61C4C5FBB00697AE8 /* MessagesService.m */; settings = {ASSET_TAGS = (); }; };
+		C26C27D41C4C5FBB00697AE8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26C27C91C4C5FBB00697AE8 /* MainViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C26C27D51C4C5FBB00697AE8 /* MessagesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C26C27CB1C4C5FBB00697AE8 /* MessagesTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		C26C27D71C4C5FBB00697AE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C26C27CE1C4C5FBB00697AE8 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
+		C26C27D81C4C5FBB00697AE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C26C27CF1C4C5FBB00697AE8 /* main.m */; settings = {ASSET_TAGS = (); }; };
+		C26C27DD1C4C614200697AE8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C26C27BC1C4C5FB100697AE8 /* libPods.a */; };
+		C26C27DE1C4C614800697AE8 /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C26C27B81C4C5FB100697AE8 /* libAFNetworking.a */; };
+		C26C27DF1C4C614800697AE8 /* libECSlidingViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C26C27BA1C4C5FB100697AE8 /* libECSlidingViewController.a */; };
+		C26C27E31C4C64CC00697AE8 /* libMBProgressHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C26C27E21C4C64CC00697AE8 /* libMBProgressHUD.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C26C27B71C4C5FB100697AE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C26C27B11C4C5FB100697AE8 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D6585633A289EAC5DC22E904FF31321;
+			remoteInfo = AFNetworking;
+		};
+		C26C27B91C4C5FB100697AE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C26C27B11C4C5FB100697AE8 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7FA5DA1BAE94E9BAA05644F246976723;
+			remoteInfo = ECSlidingViewController;
+		};
+		C26C27BB1C4C5FB100697AE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C26C27B11C4C5FB100697AE8 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4A14F11D44944A3080E295DE46E67FC2;
+			remoteInfo = Pods;
+		};
+		C26C27E11C4C64CC00697AE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C26C27B11C4C5FB100697AE8 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 75736C71DDFADA6FD877AC7E46439DA5;
+			remoteInfo = MBProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C26C27B11C4C5FB100697AE8 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		C26C27BE1C4C5FBB00697AE8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C26C27BF1C4C5FBB00697AE8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C26C27C11C4C5FBB00697AE8 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		C26C27C21C4C5FBB00697AE8 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		C26C27C31C4C5FBB00697AE8 /* MessagesMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesMapper.h; sourceTree = "<group>"; };
+		C26C27C41C4C5FBB00697AE8 /* MessagesMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesMapper.m; sourceTree = "<group>"; };
+		C26C27C51C4C5FBB00697AE8 /* MessagesService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesService.h; sourceTree = "<group>"; };
+		C26C27C61C4C5FBB00697AE8 /* MessagesService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesService.m; sourceTree = "<group>"; };
+		C26C27C81C4C5FBB00697AE8 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C26C27C91C4C5FBB00697AE8 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C26C27CA1C4C5FBB00697AE8 /* MessagesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesTableViewCell.h; sourceTree = "<group>"; };
+		C26C27CB1C4C5FBB00697AE8 /* MessagesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesTableViewCell.m; sourceTree = "<group>"; };
+		C26C27CC1C4C5FBB00697AE8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Test-Task-Alex-Peda-ObjC/Info.plist"; sourceTree = "<group>"; };
+		C26C27CE1C4C5FBB00697AE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C26C27CF1C4C5FBB00697AE8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2F3C4661C4BB93000BB47FA /* Test-Task-Alex-Peda-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test-Task-Alex-Peda-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2F3C4631C4BB93000BB47FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26C27E31C4C64CC00697AE8 /* libMBProgressHUD.a in Frameworks */,
+				C26C27DE1C4C614800697AE8 /* libAFNetworking.a in Frameworks */,
+				C26C27DF1C4C614800697AE8 /* libECSlidingViewController.a in Frameworks */,
+				C26C27DD1C4C614200697AE8 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C26C27B21C4C5FB100697AE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C26C27B81C4C5FB100697AE8 /* libAFNetworking.a */,
+				C26C27BA1C4C5FB100697AE8 /* libECSlidingViewController.a */,
+				C26C27E21C4C64CC00697AE8 /* libMBProgressHUD.a */,
+				C26C27BC1C4C5FB100697AE8 /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C26C27BD1C4C5FBB00697AE8 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				C26C27BE1C4C5FBB00697AE8 /* AppDelegate.h */,
+				C26C27BF1C4C5FBB00697AE8 /* AppDelegate.m */,
+				C26C27C01C4C5FBB00697AE8 /* Model */,
+				C26C27C71C4C5FBB00697AE8 /* UI */,
+			);
+			name = Code;
+			path = "Test-Task-Alex-Peda-ObjC/Code";
+			sourceTree = "<group>";
+		};
+		C26C27C01C4C5FBB00697AE8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C26C27C11C4C5FBB00697AE8 /* Message.h */,
+				C26C27C21C4C5FBB00697AE8 /* Message.m */,
+				C26C27C31C4C5FBB00697AE8 /* MessagesMapper.h */,
+				C26C27C41C4C5FBB00697AE8 /* MessagesMapper.m */,
+				C26C27C51C4C5FBB00697AE8 /* MessagesService.h */,
+				C26C27C61C4C5FBB00697AE8 /* MessagesService.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C26C27C71C4C5FBB00697AE8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C26C27C81C4C5FBB00697AE8 /* MainViewController.h */,
+				C26C27C91C4C5FBB00697AE8 /* MainViewController.m */,
+				C26C27CA1C4C5FBB00697AE8 /* MessagesTableViewCell.h */,
+				C26C27CB1C4C5FBB00697AE8 /* MessagesTableViewCell.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C26C27CD1C4C5FBB00697AE8 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C26C27CE1C4C5FBB00697AE8 /* Assets.xcassets */,
+				C26C27CF1C4C5FBB00697AE8 /* main.m */,
+			);
+			name = Other;
+			path = "Test-Task-Alex-Peda-ObjC/Other";
+			sourceTree = "<group>";
+		};
+		C2F3C45D1C4BB93000BB47FA = {
+			isa = PBXGroup;
+			children = (
+				C26C27CC1C4C5FBB00697AE8 /* Info.plist */,
+				C26C27BD1C4C5FBB00697AE8 /* Code */,
+				C26C27CD1C4C5FBB00697AE8 /* Other */,
+				C26C27B11C4C5FB100697AE8 /* Pods.xcodeproj */,
+				C2F3C4671C4BB93000BB47FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2F3C4671C4BB93000BB47FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2F3C4661C4BB93000BB47FA /* Test-Task-Alex-Peda-ObjC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2F3C4651C4BB93000BB47FA /* Test-Task-Alex-Peda-ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F3C47D1C4BB93000BB47FA /* Build configuration list for PBXNativeTarget "Test-Task-Alex-Peda-ObjC" */;
+			buildPhases = (
+				C2F3C4621C4BB93000BB47FA /* Sources */,
+				C2F3C4631C4BB93000BB47FA /* Frameworks */,
+				C2F3C4641C4BB93000BB47FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Test-Task-Alex-Peda-ObjC";
+			productName = "Test-Task-Alex-Peda-ObjC";
+			productReference = C2F3C4661C4BB93000BB47FA /* Test-Task-Alex-Peda-ObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2F3C45E1C4BB93000BB47FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Alex Peda";
+				TargetAttributes = {
+					C2F3C4651C4BB93000BB47FA = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = C2F3C4611C4BB93000BB47FA /* Build configuration list for PBXProject "Test-Task-Alex-Peda-ObjC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2F3C45D1C4BB93000BB47FA;
+			productRefGroup = C2F3C4671C4BB93000BB47FA /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C26C27B21C4C5FB100697AE8 /* Products */;
+					ProjectRef = C26C27B11C4C5FB100697AE8 /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C2F3C4651C4BB93000BB47FA /* Test-Task-Alex-Peda-ObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C26C27B81C4C5FB100697AE8 /* libAFNetworking.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAFNetworking.a;
+			remoteRef = C26C27B71C4C5FB100697AE8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C26C27BA1C4C5FB100697AE8 /* libECSlidingViewController.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libECSlidingViewController.a;
+			remoteRef = C26C27B91C4C5FB100697AE8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C26C27BC1C4C5FB100697AE8 /* libPods.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPods.a;
+			remoteRef = C26C27BB1C4C5FB100697AE8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C26C27E21C4C64CC00697AE8 /* libMBProgressHUD.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMBProgressHUD.a;
+			remoteRef = C26C27E11C4C64CC00697AE8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2F3C4641C4BB93000BB47FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26C27D71C4C5FBB00697AE8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2F3C4621C4BB93000BB47FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26C27D01C4C5FBB00697AE8 /* AppDelegate.m in Sources */,
+				C26C27D31C4C5FBB00697AE8 /* MessagesService.m in Sources */,
+				C26C27D11C4C5FBB00697AE8 /* Message.m in Sources */,
+				C26C27D51C4C5FBB00697AE8 /* MessagesTableViewCell.m in Sources */,
+				C26C27D41C4C5FBB00697AE8 /* MainViewController.m in Sources */,
+				C26C27D81C4C5FBB00697AE8 /* main.m in Sources */,
+				C26C27D21C4C5FBB00697AE8 /* MessagesMapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C2F3C47B1C4BB93000BB47FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"${SRCROOT}/Pods/Headers/Public\"";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2F3C47C1C4BB93000BB47FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"${SRCROOT}/Pods/Headers/Public\"";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2F3C47E1C4BB93000BB47FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "Test-Task-Alex-Peda-ObjC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-Peda.Test-Task-Alex-Peda-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2F3C47F1C4BB93000BB47FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "Test-Task-Alex-Peda-ObjC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-Peda.Test-Task-Alex-Peda-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2F3C4611C4BB93000BB47FA /* Build configuration list for PBXProject "Test-Task-Alex-Peda-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F3C47B1C4BB93000BB47FA /* Debug */,
+				C2F3C47C1C4BB93000BB47FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2F3C47D1C4BB93000BB47FA /* Build configuration list for PBXNativeTarget "Test-Task-Alex-Peda-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F3C47E1C4BB93000BB47FA /* Debug */,
+				C2F3C47F1C4BB93000BB47FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2F3C45E1C4BB93000BB47FA /* Project object */;
+}
